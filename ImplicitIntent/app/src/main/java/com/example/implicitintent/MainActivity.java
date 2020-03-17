@@ -8,12 +8,14 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
     private EditText mWebsiteEditText;
     private EditText mLocationEditText;
     private EditText mShareTextEditText;
+    private Button mTakePictureEditText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         mWebsiteEditText = findViewById(R.id.website_edittext);
         mLocationEditText = findViewById(R.id.location_edittext);
         mShareTextEditText = findViewById(R.id.share_edittext);
+        mTakePictureEditText = findViewById(R.id.picture_edittext);
     }
 
     public void openWebsite(View view) {
@@ -68,5 +71,10 @@ public class MainActivity extends AppCompatActivity {
                 .setChooserTitle(R.string.share)
                 .setText(txt)
                 .startChooser();
+    }
+
+    public void takePicture(View view) {
+        Intent intent = new Intent("android.media.action.IMAGE_CAPTURE");
+        startActivity(intent);
     }
 }

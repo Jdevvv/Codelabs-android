@@ -10,4 +10,5 @@
     <string name="edittext_share">\'Twas brillig and the slithy tooves</string>
     <string name="button_share">Share This Text</string>
     <string name="share">\"Share this text with: \"</string>
+    <string name="picture">Take a picture</string>
 </resources>

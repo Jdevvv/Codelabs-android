@@ -42,6 +42,9 @@ public class Calculator {
      * Divide operation
      */
     public double div(double firstOperand, double secondOperand) {
+        if (secondOperand == 0) {
+            throw new IllegalArgumentException();
+        }
         return firstOperand / secondOperand;
     }
 

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "232463008891",
+    "firebase_url": "https://simpleasynctask-99ae1.firebaseio.com",
+    "project_id": "simpleasynctask-99ae1",
+    "storage_bucket": "simpleasynctask-99ae1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:232463008891:android:d465b26262978964e40ede",
+        "android_client_info": {
+          "package_name": "fr.mds.simpleasynctask"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "232463008891-o5u29lk2kmsf336akseak8bdcnlo23fn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSQaUordRI5ScYHg9LriVy8fTtLRTT8kM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "232463008891-o5u29lk2kmsf336akseak8bdcnlo23fn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
